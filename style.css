@@ -7,13 +7,15 @@
 
 main {
     background-color: #f2f2f2;
+    width: 100%;
 }
 
 form {
-    height: 1086px;
-    width: 428px;
-    overflow-x: hidden;
+    height: 100vh;
+    width: 90%;
+    
     text-align: center;
+    padding: 0 16px;
 }
 
 .profile {
@@ -22,6 +24,7 @@ form {
     background-size: cover;
     background-repeat: no-repeat;
     height: 208px;
+    width: 100%;
     margin-bottom: 80px;
     position: relative;
 
@@ -90,7 +93,7 @@ input:focus{
 
 button {
    margin-top: 50px;
-   width: 396px;
+   width: 90vw;
    height: 52px;
    background-color: #A40A63;
    color: #fff;
